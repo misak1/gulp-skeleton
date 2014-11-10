@@ -1,0 +1,86 @@
+extends /_theme/layout_sp
+include /_mixin/module_sp
+
+block main
+
+  .frame
+    .mainvs
+      img(src="/zemi/trial/common/images/top/sp/mainvs.png")
+  .frame.top
+    .frame_inner
+      .unit
+        .text_box.border
+          h2 メインコピーがはいります。
+          p ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト
+        .text_box.color
+          h2.blue 冬の復習無料体験セットをお届けします
+          p.pt0.blue 2014年11月18日(火)～2014年12月22日(月)
+          p
+            img(src="/zemi/trial/common/images/top/sp/img_logo.png", alt="進研ゼミ", width="36", height="10")
+            |を実際に体験できる、学年別のおためし教材をお届けします。
+            br
+            |詳しくは下記からお申し込みされるかたの現在の学年を選択してください。
+
+        .anchor_box
+          p
+            a(href="#sho")
+              img(src="/zemi/trial/common/images/top/sp/btn_01.png", alt="小学生向け（新1年生～6年生）")
+          p
+            a(href="#chu")
+              img(src="/zemi/trial/common/images/top/sp/btn_02.png", alt="中学生向け（1年生～3年生）")
+          p
+            a(href="#high")
+              img(src="/zemi/trial/common/images/top/sp/btn_03.png", alt="高校生向け（1年生～3年生）")
+
+ 
+  .frame.top.bg
+    .frame_inner
+      .unit
+
+        .top_content
+          .content_box
+            .cols.yellow#sho
+              .cols_inner.bordernone
+                .cols_pad
+                  a(href="/zemi/trial/sp/nencho/") 新小学1年生（年長）
+                .cols_text
+                  p
+                    a(href="#") ※こどもちゃれんじのトライアルをご希望の方はこちらから
+            .cols.yellow
+              .cols_inner.bordernone
+                .cols_pad
+                  a(href="/zemi/trial/sp/sho1/") 小学1年生
+                .cols_pad
+                  a(href="/zemi/trial/sp/sho2/") 小学2年生
+                .cols_pad
+                  a(href="/zemi/trial/sp/sho3/") 小学3年生
+            .cols.yellow
+              .cols_inner
+                .cols_pad
+                  a(href="/zemi/trial/sp/sho4/") 小学4年生
+                .cols_pad
+                  a(href="/zemi/trial/sp/sho5/") 小学5年生
+                .cols_pad
+                  a(href="/zemi/trial/sp/sho6/") 小学6年生
+    
+            .cols.blue#chu
+              .cols_inner
+                .cols_pad
+                  a(href="/zemi/trial/sp/chu1/") 中学1年生
+                .cols_pad
+                  a(href="/zemi/trial/sp/chu2/") 中学2年生
+                .cols_pad
+                  a(href="/zemi/trial/sp/chu3/") 中学3年生
+    
+            .cols.red#high
+              .cols_inner
+                .cols_pad
+                  a(href="/zemi/trial/sp/h1/") 高校1年生
+                .cols_pad
+                  a(href="/zemi/trial/sp/h2/") 高校2年生
+                .cols_pad
+                  a(href="/zemi/trial/sp/h3/") 高校3年生
+    
+ 
+
+
